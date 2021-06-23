@@ -1,0 +1,227 @@
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                            font-family: "fooont", Arial, sans-serif;
+                                        }
+                                        
+                                        .container {
+                                            width: 1170px;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .header-optional {
+                                            box-shadow: 0 0 10px 0 rgb(0 0 0 20%);
+                                            background: white;
+                                            z-index: 1;
+                                        }
+                                        
+                                        ul>.navbar-nav {
+                                            justify-content: space-around;
+                                            background: transparent;
+                                        }
+                                        
+                                        .navbar-light .navbar-nav .nav-link:hover {
+                                            color: #FF931E;
+                                        }
+                                        
+                                        .mx-auto {
+                                            margin-right: 0!important;
+                                            margin-left: auto!important;
+                                        }
+                                        
+                                        .collapse ul li a {
+                                            text-decoration: none;
+                                            line-height: 1.41;
+                                            font-size: 17px;
+                                            color: black;
+                                            transition: 150ms all linear;
+                                        }
+                                        
+                                        .header-text h2 {
+                                            color: #2D3192;
+                                            margin-top: 40px;
+                                        }
+                                        
+                                        .button a {
+                                            display: inline-block;
+                                            height: 56px;
+                                            padding: 0 100px 0 24px;
+                                            font-weight: 600;
+                                            font-size: 15px;
+                                            line-height: 56px;
+                                            color: #222;
+                                            text-decoration: none;
+                                            background: url("https://www.simbrella.com/site/templates/img/link_orange_icon.svg") no-repeat calc(100% - 24px) 50%;
+                                            border-radius: 12px;
+                                            transition: all 0.15s linear;
+                                            margin-left: 78%;
+                                            border: 2px solid #DFE4EB;
+                                            text-align: center;
+                                            z-index: 9999;
+                                        }
+                                        
+                                        .button a:hover {
+                                            background: url("https://www.simbrella.com/site/templates/img/link_orange_icon.svg") no-repeat calc(100% - 20px) 50%;
+                                            -webkit-box-shadow: inset 0 0 0 3px #FF931E;
+                                            box-shadow: inset 0 0 0 3px #FF931E;
+                                        }
+                                        
+                                        .container-section {
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            list-style: none;
+                                            margin: 0;
+                                            padding: 100px;
+                                            align-content: center;
+                                        }
+                                        
+                                        .cards {
+                                            justify-content: center;
+                                            align-content: space-around;
+                                            display: flex;
+                                            max-width: 1140px;
+                                            margin: 0 auto;
+                                            padding: 0 20px;
+                                        }
+                                        
+                                        .card {
+                                            display: flex;
+                                            flex-direction: column;
+                                            min-width: 0;
+                                            word-wrap: break-word;
+                                            background-color: #fff;
+                                            background-clip: border-box;
+                                            border-radius: .25rem;
+                                            border: none;
+                                        }
+                                        
+                                        .card time {
+                                            font-size: 18px;
+                                            line-height: 1.33;
+                                            color: #5F6773;
+                                        }
+                                        
+                                        .image-container {
+                                            background-position: center center;
+                                            border-top-left-radius: 0.25rem;
+                                            border-top-right-radius: 0.25rem;
+                                            overflow: hidden;
+                                            position: relative;
+                                            transition: filter 0.5s cubic-bezier(.43, .41, .22, .91);
+                                            border-radius: 4px;
+                                        }
+                                        
+                                        .image-container::before {
+                                            content: "";
+                                            display: block;
+                                            padding-top: 56.25%;
+                                        }
+                                        
+                                        .image-container {
+                                            transition: .3s all linear;
+                                        }
+                                        
+                                        .card img:hover {
+                                            z-index: 0;
+                                            transform: scale(1.02);
+                                            transition: .1s all ease-in;
+                                        }
+                                        
+                                        .info {
+                                            display: flex;
+                                            flex-direction: row;
+                                            width: 300px;
+                                        }
+                                        
+                                        #footer {
+                                            background-color: #000;
+                                            background-image: url("https://www.simbrella.com/site/templates/img/footer_bg.svg");
+                                            width: 1903px;
+                                            background-repeat: no-repeat;
+                                            background-position: 0 50%;
+                                            padding: 35px;
+                                            justify-content: space-around;
+                                        }
+                                        
+                                        nav.footer-nav li {
+                                            display: inline-block;
+                                            padding: 0 48px;
+                                            border-left: 1px solid #505050;
+                                            list-style: none;
+                                        }
+                                        
+                                        .footer-text h2 {
+                                            font-weight: bold;
+                                            font-size: 36px;
+                                            line-height: 1.29;
+                                            letter-spacing: 0.01em;
+                                            color: #fff;
+                                        }
+                                        
+                                        nav.footer-nav li a {
+                                            text-decoration: none;
+                                        }
+                                        
+                                        nav.footer-nav a:hover,
+                                        nav.footer-nav a.active {
+                                            color: #FF931E;
+                                        }
+                                        
+                                        nav.footer-nav a {
+                                            font-weight: bold;
+                                            font-size: 18px;
+                                            line-height: 1.33;
+                                            letter-spacing: 0.01em;
+                                            color: rgba(255, 255, 255, 0.5);
+                                            text-decoration: none;
+                                            text-transform: uppercase;
+                                            transition: all 0.15s linear;
+                                            animation-duration: 0.15s;
+                                            transition: all 0.15s linear;
+                                            animation-duration: 0.15s;
+                                            -o-transition: all 0.15s linear;
+                                            transition: all 0.15s linear;
+                                        }
+                                        
+                                        dl,
+                                        ol,
+                                        ul {
+                                            margin-top: 0;
+                                            margin-bottom: 1rem;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-content: center;
+                                            list-style: none;
+                                        }
+                                        
+                                        .footer-contacts span {
+                                            display: block;
+                                            padding: 0 0 12px;
+                                            font-size: 18px;
+                                            line-height: 1.45;
+                                            color: rgba(255, 255, 255, 0.6);
+                                        }
+                                        
+                                        .paragraph p {
+                                            font-weight: 500;
+                                            font-size: 20px;
+                                            line-height: 1.54;
+                                            color: #fff;
+                                        }
+                                        
+                                        .email span {
+                                            display: block;
+                                            padding: 0 0 12px;
+                                            font-size: 18px;
+                                            line-height: 1.45;
+                                            color: rgba(255, 255, 255, 0.6);
+                                        }
+                                        
+                                        .email a {
+                                            font-weight: 500;
+                                            font-size: 20px;
+                                            line-height: 1.54;
+                                            color: #fff;
+                                            text-decoration: none;
+                                        }
